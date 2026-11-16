@@ -42,15 +42,15 @@ The project deploys to `https://hanzo-23.github.io/Fitness`:
 
 ![login](src/pictures/login.png)
 
-![create_Account](src/pictures/createAcc.png)
+![register](src/pictures/register.png)
 
-![reset_Pass](src/pictures/resetPass.png)
+![reset_pass](src/pictures/resest_pass.png)
 
-![contact](src/pictures/contact.png)
+![exercises1](src/pictures/exercises1.png)
+
+![exercises2](src/pictures/exercises2.png)
 
 ![meals](src/pictures/meals.png)
-
-![exercises](src/pictures/exercisesPage.png)
 
 ![shop](src/pictures/shop.png)
 

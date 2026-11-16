@@ -131,11 +131,14 @@
     gap: 10px;
   }
 
-  #contact-form label:not(:first-child) {
+  #contact-form label {
     margin-top: 8px;
   }
 
   #contact-submit {
-    padding: 10px 14px;
+    height: auto;
+    padding: 10px 18px;
+    font-size: 14px;
   }
+
 }

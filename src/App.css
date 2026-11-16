@@ -119,6 +119,22 @@ body{
   color: #222;
 }
 
+.app-container.light .nav-links.open {
+  background-color: #fff;
+}
+
+.app-container.light .nav-links.open a {
+  color: #222;
+}
+
+.app-container.light .burger {
+  color: #222;
+}
+
+.app-container.light .burger:hover {
+  color: #168510;
+}
+
 .app-container.light .list {
   color: #222;
 }

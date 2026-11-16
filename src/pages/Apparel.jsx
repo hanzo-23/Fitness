@@ -3,8 +3,6 @@ import './Apparel.css';
 import shirt  from '../pictures/shirt.jpeg';
 import short from '../pictures/short.jpeg';
 import hoodie from '../pictures/hoodie.jpeg';
-import bra from '../pictures/bra.jpeg';
-import hat from '../pictures/hat.jpeg';
 import pent from '../pictures/pent.jpeg';
 
 
