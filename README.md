@@ -31,7 +31,7 @@ npm start
 
 ## Live website
 
-The project deploys to `https://hanzo-23.github.io/Fitness`:
+The project deploys to `https://hanzo-23.github.io/Fitness`
 
 
 ## UI img:
