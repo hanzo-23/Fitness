@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Fitness/static/css/main.d1bff56b.css",
+    "main.js": "/Fitness/static/js/main.f2de0469.js",
+    "static/js/453.393ff4d5.chunk.js": "/Fitness/static/js/453.393ff4d5.chunk.js",
+    "static/media/gear2.png": "/Fitness/static/media/gear2.d7bba88a4e357d7d2d74.png",
+    "static/media/logo-white.png": "/Fitness/static/media/logo-white.4a9659fb08ef55815f5d.png",
+    "static/media/logo.png": "/Fitness/static/media/logo.6e5d03b8f43079fad9b5.png",
+    "static/media/creatine.jpeg": "/Fitness/static/media/creatine.8c88211b3cf74e35bfaa.jpeg",
+    "static/media/preWorkout.jpeg": "/Fitness/static/media/preWorkout.e7ef73131cd80a0c27fe.jpeg",
+    "static/media/whey.jpeg": "/Fitness/static/media/whey.f4f5e1deff71d56b95bd.jpeg",
+    "static/media/man.jpeg": "/Fitness/static/media/man.e5a82e241a2c3a6b6ced.jpeg",
+    "static/media/bcaa.jpeg": "/Fitness/static/media/bcaa.585a5b9ff61a4ed75638.jpeg",
+    "static/media/hat.jpeg": "/Fitness/static/media/hat.8c5ef6aa66e80f1609f1.jpeg",
+    "static/media/short.jpeg": "/Fitness/static/media/short.42ec1f01bfcdad274bcb.jpeg",
+    "static/media/bra.jpeg": "/Fitness/static/media/bra.2ce704c039cb22065d89.jpeg",
+    "static/media/women.jpeg": "/Fitness/static/media/women.5ede16e17aa0f02ddd63.jpeg",
+    "static/media/hoodie.jpeg": "/Fitness/static/media/hoodie.36c62df98b64d21eb76d.jpeg",
+    "static/media/shirt.jpeg": "/Fitness/static/media/shirt.b7872f478fc1747c6815.jpeg",
+    "static/media/pent.jpeg": "/Fitness/static/media/pent.2dec6969308efd4e9470.jpeg",
+    "static/media/bands.jpeg": "/Fitness/static/media/bands.b459ca351edf9774eb96.jpeg",
+    "static/media/wraps.jpeg": "/Fitness/static/media/wraps.3d0fc6f66e4b965bb031.jpeg",
+    "static/media/bag.jpeg": "/Fitness/static/media/bag.6c0a5d4de559b88b9c39.jpeg",
+    "static/media/strap.jpeg": "/Fitness/static/media/strap.9c099d2d42e9ed1bd7d6.jpeg",
+    "static/media/gloves.jpeg": "/Fitness/static/media/gloves.7b868a0fac53a34ee200.jpeg",
+    "static/media/pd.jpeg": "/Fitness/static/media/pd.76781b77a066b4a32915.jpeg",
+    "static/media/pullup.jpeg": "/Fitness/static/media/pullup.00ff03d75d8406061dca.jpeg",
+    "static/media/shaker.jpeg": "/Fitness/static/media/shaker.e0407e8e2d2bc2ea9d38.jpeg",
+    "static/media/knee.jpeg": "/Fitness/static/media/knee.9296173e1ea7090df1ae.jpeg",
+    "static/media/belt.jpeg": "/Fitness/static/media/belt.8a0839aa90b347480eaa.jpeg",
+    "static/media/parall.jpeg": "/Fitness/static/media/parall.ae4c5a8b7719591c19c6.jpeg",
+    "static/media/bottle.jpeg": "/Fitness/static/media/bottle.4fcdc25568621d9b18f5.jpeg",
+    "index.html": "/Fitness/index.html",
+    "main.d1bff56b.css.map": "/Fitness/static/css/main.d1bff56b.css.map",
+    "main.f2de0469.js.map": "/Fitness/static/js/main.f2de0469.js.map",
+    "453.393ff4d5.chunk.js.map": "/Fitness/static/js/453.393ff4d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1bff56b.css",
+    "static/js/main.f2de0469.js"
+  ]
+}
