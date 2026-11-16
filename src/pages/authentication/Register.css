@@ -1,0 +1,97 @@
+
+
+
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  border: 2px solid #fff;
+  background-color: black;
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  margin-left: 560px;
+  gap: 12px; 
+}
+
+.reg-form h1 {
+  margin: 20px;
+  padding-top: 10px;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+
+
+.reg-form input {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.reg-form ::placeholder {
+  color: #333;
+}
+
+.reg-form a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.reg-form button {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #20af18cc;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reg-form button:hover {
+  font-weight: bold;
+  transform: scale(0.94);
+  transition: 0.3s ease;
+}
+
+.reg-form p {
+  color: #fff;
+  padding-top: 6px;
+  margin-bottom: 35px;
+}
+
+.reg-form span {
+  display: inline-block;
+}
+
+.reg-form span:hover {
+  transform: scale(0.94);
+  transition: 0.3s ease;
+}
+
+.reg-form a:hover {
+  color: #20af18cc;
+  font-weight: bold;
+}
+
+
+.success-msg {
+  color: #20af18cc !important;
+  margin-bottom: 8px;
+   font-weight: bold;
+}
+@media (max-width: 950px) {
+  .reg-form {
+    margin-left: 185px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reg-form {
+    margin-left: 58px;
+  }
+}

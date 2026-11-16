@@ -1,0 +1,141 @@
+.contact-page {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #001b0d;
+  box-sizing: border-box;
+}
+
+.contact-header {
+  margin-bottom: 20px;
+}
+
+.contact-header h1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 20px;
+  min-height: 90px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.contact-header h1 span {
+  color: #20af18cc;
+}
+
+#contact-submit {
+  margin-left: auto;
+  margin-top: -6px;
+  padding: 12px 25px;
+  height: 50px;
+  flex-shrink: 0;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #20af18cc;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#contact-submit:hover {
+  transform: scale(0.96);
+}
+
+.contact {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color: #000;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 18px 15px;
+  align-items: center;
+}
+
+#contact-form label {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #222;
+  font: inherit;
+}
+
+#contact-form textarea {
+  resize: vertical;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: 2px solid #20af18cc;
+  outline-offset: 2px;
+}
+
+#contact-form button {
+  grid-column: 2;
+  justify-self: start;
+  padding: 12px 25px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #20af18cc;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#contact-form button:hover {
+  transform: scale(0.96);
+}
+
+@media (max-width: 600px) {
+  .contact-page {
+    padding: 15px;
+  }
+
+  .contact-header h1 {
+    min-height: 75px;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    padding: 22px;
+  }
+
+  #contact-form {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  #contact-form label:not(:first-child) {
+    margin-top: 8px;
+  }
+
+  #contact-submit {
+    padding: 10px 14px;
+  }
+}

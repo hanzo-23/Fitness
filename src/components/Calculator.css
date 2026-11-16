@@ -1,0 +1,136 @@
+.calculator {
+  width: 100%;
+  max-width: 560px;
+  padding: 24px;
+  border: 2px solid #20af18cc;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.calculator-header {
+  margin-bottom: 100px;
+  margin-top: 20px;
+ 
+}
+
+.calculator-header h2 {
+  justify-content: center;
+  width: 100%;
+}
+
+.calculator h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 20px;
+  color: #20af18cc;
+  font-size: 1.5rem;
+}
+
+
+.calorie-box {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #20af18cc;
+  border-radius: 16px;
+}
+
+.calorie-box p {
+  margin: 0 0 8px;
+}
+
+.calorie-box h3 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #20af18cc;
+}
+
+/* macro cards*/
+.macros {
+  display: flex;
+  gap: 12px;
+
+}
+
+.macro {
+  flex: 1;
+  padding: 16px 8px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 14px;
+}
+
+.macro-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.macro h4 {
+  margin: 0 0 8px;
+  color: #fff;
+}
+
+.macro h3 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.macro span {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+
+.macro.protein {
+  color: #3b9bff;
+  border-color: #3b9bff;
+  background-color: #06121f;
+}
+
+.macro.carbs {
+  color: #ff8c3a;
+  border-color: #ff8c3a;
+  background-color: #1f1005;
+}
+
+.macro.fats {
+  color: #ffd92e;
+  border-color: #ffd92e;
+  background-color: #1f1b05;
+}
+
+/* Light theme */
+.app-container.light .calculator {
+  background-color: #fff;
+  color: #222;
+  border-color: #168510;
+}
+
+.app-container.light .calculator h2,
+.app-container.light .calorie-box h3 {
+  color: #168510;
+}
+
+.app-container.light .calorie-box {
+  border-color: #168510;
+}
+
+.app-container.light .macro h4,
+.app-container.light .macro h3 {
+  color: #222;
+}
+
+
+ @media (max-width: 600px) {
+.macros {
+  flex-direction: column;
+}
+
+.calorie-box h3 {
+  font-size: 2rem;
+}}

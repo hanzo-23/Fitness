@@ -1,0 +1,82 @@
+.exercises-page {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #001b0d;
+  color: white;
+}
+
+.exercises-header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color: #000;
+}
+
+.exercises-header:hover {
+  transform: scale(0.94);
+  transition: 0.3s ease;
+}
+
+.exercises-header h1 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.exercises-header h1 span {
+  color: #20af18;
+}
+
+.muscle-cards,
+.exercise-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.muscle-card,
+.exercise-card {
+  width: 250px;
+  padding: 20px;
+  border: 2px solid #20af18;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+}
+
+.muscle-card {
+  text-align: center;
+  cursor: pointer;
+  font: inherit;
+}
+
+.muscle-card h2,
+.exercise-card h3 {
+  margin-bottom: 8px;
+  color: #20af18;
+}
+
+.muscle-card p,
+.exercise-card p {
+  margin: 8px 0;
+}
+
+.back-btn {
+  margin-left: 85px;
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #20af18;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .muscle-card,
+  .exercise-card {
+    width: 100%;
+  }
+}
