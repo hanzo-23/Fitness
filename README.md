@@ -1,57 +1,25 @@
 # FitnessLife
 
-FitnessLife is a responsive fitness companion and shop built with React. It includes workout and meal-planning tools alongside a storefront for fitness gear, apparel, and supplements.
+FitnessLife is a website for finding exercises, planning meals, calculating daily calories, and shopping for fitness gear.
 
-**Live site:** [hanzo-23.github.io/Fitness](https://hanzo-23.github.io/Fitness/)
-
-## Features
-
-- Browse exercise ideas by muscle group.
-- Record and manage meal entries.
-- Explore fitness gear, apparel, and supplements.
-- Create a local demo profile and switch between light and dark themes.
-- Use the responsive navigation on mobile and desktop.
-
-Demo profile and meal data are stored in the browser; this project does not use a production account service or database.
+**Visit the website:** [FitnessLife](https://hanzo-23.github.io/Fitness/)
 
 ## Screenshot
 
-![FitnessLife shop landing page](docs/screenshots/shop.png)
+![FitnessLife shop page](docs/screenshots/shop.png)
 
-## Setup
+## Run the project
 
-Requirements: Node.js and npm.
+1. Install [Node.js](https://nodejs.org/) if it is not already on your computer.
+2. Open a terminal in the project folder.
+3. Run `npm install` to install the project files it needs.
+4. Run `npm start` to start the website.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```bash
-git clone https://github.com/hanzo-23/Fitness.git
-cd Fitness
-npm install
-npm start
-```
+## Publish the website
 
-The development server opens at [http://localhost:3000](http://localhost:3000).
+The website is hosted on GitHub Pages. To publish your changes, run `npm run deploy` in the project folder.
 
-Other useful commands:
+## View Git history
 
-```bash
-npm test -- --watchAll=false
-npm run build
-```
-
-## Deployment
-
-The frontend is hosted on GitHub Pages. To publish an update, make sure your GitHub account can push to the repository, then run:
-
-```bash
-npm run deploy
-```
-
-This runs the production build and publishes the `build` folder to the `gh-pages` branch. In the repository's **Settings → Pages**, select the `gh-pages` branch and `/ (root)` as the source.
-
-## Git history
-
-The project is version-controlled with Git. To view its commit history:
-
-```bash
-git log --oneline --decorate
-```
+To see the project's commits, run `git log --oneline` in the project folder.
