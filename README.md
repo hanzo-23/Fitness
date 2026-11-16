@@ -10,16 +10,12 @@ FitnessLife is a website for finding exercises, planning meals, calculating dail
 
 ## Run the project
 
-1. Install [Node.js](https://nodejs.org/) if it is not already on your computer.
+1. Install [Node.js](https://nodejs.org/)
 2. Open a terminal in the project folder.
-3. Run `npm install` to install the project files it needs.
-4. Run `npm start` to start the website.
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+3. Run `npm install`
+4. Run `npm start`
+5. Run `npm run deploy`
 
-## Publish the website
 
-The website is hosted on GitHub Pages. To publish your changes, run `npm run deploy` in the project folder.
 
-## View Git history
-
-To see the project's commits, run `git log --oneline` in the project folder.
+To see the project's commits: run `git log --oneline`
