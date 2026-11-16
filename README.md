@@ -2,6 +2,8 @@
 
 A React fitness website with exercises, meal tracking, profiles, and a shop for fitness gear, apparel, and supplements.
 
+**Live website:** [Fitness](https://hanzo-23.github.io/Fitness/)
+
 ## Run locally
 
 ```bash
